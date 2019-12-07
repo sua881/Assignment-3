@@ -1,0 +1,57 @@
+body
+{
+text-shadow: 4px 4px red;
+background-color: black;
+color:white;
+font-size: 100px;
+border-radius: 20px;
+border-style: dotted;
+width: 600px;
+height: 1200px;
+background-color: red;
+animation-name: example;
+animation-duration: 4s;
+}
+
+#header
+{
+
+}
+
+#author
+{
+  text-shadow: 4px 4px purple;
+}
+
+#one
+{
+  text-shadow: 4px 4px orange;
+  font-size: 50px;
+
+}
+
+#two
+{
+  text-shadow: 4px 4px yellow;
+    font-size: 50px;
+
+}
+
+#three
+{
+  text-shadow: 4px 4px green;
+    font-size: 50px;
+
+}
+
+#four
+{
+  text-shadow: 4px 4px blue;
+  font-size: 50px;
+}
+
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}

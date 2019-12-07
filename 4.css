@@ -1,0 +1,46 @@
+body
+{
+  font-size: 30px;
+  font-family: helvetica;\
+  text-transform: lowercase;
+  background-color: #c72510;
+}
+
+#header
+{
+text-align: left;
+color:#9c1d01;
+font-weight: 900;
+}
+
+#line1
+{
+text-align: center;
+color:#f5c4a4;
+font-weight: 900;
+}
+#line2
+{
+text-align: center;
+color:#e8e3a1;
+font-weight: 600;
+}
+#line3
+{
+text-align: center;
+color:#aacca6;
+font-weight: 300;
+}
+#line4
+{
+text-align: center;
+color:#a5b0ee;
+font-weight: lighter;
+}
+
+#author
+{
+text-align: right;
+color:#601414;
+background-color: orange;
+}

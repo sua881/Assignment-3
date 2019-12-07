@@ -1,0 +1,40 @@
+body{
+  background-color: #9fcdd7;
+  position: absolute;
+  text-transform: lowercase;
+  text-align: center;
+  font-family: helvetica;
+  display: inline-block;
+  color: white;
+  letter-spacing: 3px;
+  line-height: 50px;
+    left:calc(50% - 75px);
+}
+
+.body
+{
+  font-style: italic;
+  position:fixed;
+
+}
+
+#one
+{
+  background-color: #020a37;
+  width:150px;
+
+}
+
+#h1
+{
+  border-radius: 2px;
+  border-style: dashed;
+  width: 300px;
+  left:calc(50% - 175px);
+}
+
+#two
+{
+  background-color: #506478;
+  width:150px;
+}

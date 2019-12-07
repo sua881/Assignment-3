@@ -1,0 +1,32 @@
+body
+{
+  background-color: #faf5d7;
+  text-align: center;
+  color: orange;
+  font-size: 40px;
+}
+
+#header
+{
+text-transform: capitalize;
+color:#8b672a;
+font-family: 'Bebas Neue', cursive;
+}
+
+
+#author
+{
+font-family: 'Bebas Neue', thin;
+}
+
+#paragraph
+{
+font-family: 'Solway', serif;
+color:#fad67a;
+background-color: orange;
+position: absolute;
+width:300px;
+overflow: scroll;
+left:calc(50% - 150px);
+
+}

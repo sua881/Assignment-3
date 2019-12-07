@@ -1,0 +1,50 @@
+body
+{
+background-color: black;
+color:white;
+font-size: 90px;
+font-family: monospace;}
+
+#header
+{
+background-color: red;
+animation-name: header;
+animation-duration: 4s;
+}
+
+#author
+{
+  background-color: blue;
+animation-name: author;
+animation-duration: 4s;
+}
+
+#one
+{
+background-color: orange;
+font-weight: 100;
+font-family: helvetica;
+font-size: 20px;
+animation-name: one;
+animation-duration: 4s;
+}
+
+
+@keyframes header {
+  0%   {background-color: #f04f4f;}
+  25%  {background-color: #c71d1d;}
+  50%  {background-color: #f96565;}
+  100% {background-color: #852020;}
+}
+@keyframes one {
+  0%   {background-color: #fff500;}
+  25%  {background-color: yellow;}
+  50%  {background-color: #ffbe16;}
+  100% {background-color: #ff8200;}
+}
+@keyframes author {
+  0%   {background-color: #007dff;}
+  25%  {background-color: #2a3475;}
+  50%  {background-color: #abc4f5;}
+  100% {background-color: #5991d2;}
+}

@@ -1,0 +1,70 @@
+body
+{
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  border-radius: 20px;
+  border-style: dashed;
+  height:1000px;
+  text-shadow: 4px 4px blue;
+  text-align: center;
+  font-size: 66px;
+}
+#header
+{
+background-color: #bdbfff;
+border-radius: 20px;
+font-style: italic;
+animation-name: example;
+animation-duration: 4s;
+animation-iteration-count: 3;
+}
+
+#author
+{
+background-color: #4200ff;
+border-radius: 20px;
+font-style: italic;
+animation-name: example;
+animation-duration: 4s;
+animation-iteration-count: 3;
+}
+
+#one
+{
+background-color:#9593ff;
+animation-name: example;
+animation-duration: 4s;
+animation-iteration-count: 3;
+}
+
+#two
+{
+background-color: #7076ff;
+animation-name: example;
+animation-duration: 4s;
+animation-iteration-count: 3;
+}
+
+#three
+{
+background-color: #6590ff;
+animation-name: example;
+animation-duration: 4s;
+animation-iteration-count: 3;
+}
+
+#four
+{
+background-color: #2123ff;
+animation-name: example;
+animation-duration: 4s;
+animation-iteration-count: 3;
+}
+
+@keyframes example {
+  0%   {color:red; left:0px; top:0px;}
+  25%  {color:yellow; left:200px; top:0px;}
+  50%  {color:blue; left:200px; top:200px;}
+  75%  {color:green; left:0px; top:200px;}
+  100% {color:red; left:0px; top:0px;}

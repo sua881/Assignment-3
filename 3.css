@@ -1,0 +1,34 @@
+body
+{
+font-size: 30px;
+text-align: right;
+text-shadow: 5px 5px #8a1111;
+background-color: pink;
+color: white;
+font-family: 'Josefin Sans', sans-serif;
+
+}
+
+#header
+{
+  background-color: #f79696;
+  position: relative;
+}
+
+
+#author
+{
+font-style: italic;
+border-radius: 1px;
+border-style: groove;
+position: relative;
+top:40%;
+width:200px;
+}
+
+#paragraph
+{
+color: #faeaea;
+font-weight: bold;
+text-transform: lowercase;
+}

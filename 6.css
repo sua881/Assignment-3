@@ -1,0 +1,61 @@
+body{
+background-color: #d8bfdd;
+font-family: monospace;
+border-style: dotted;
+}
+
+#header
+{
+  color:white;
+  text-transform: uppercase;
+  font-style: oblique;
+  font-size: 40px;
+  background-color: #f7dffc;
+  border-radius: 20px;
+  width:180px;
+ background-color: red;
+ animation-name: color;
+ animation-duration: 4s;
+}
+
+#author
+{
+  color:purple;
+  font-size: 20px;
+  background-color:#d8bfdd;
+  border-radius: 20px;
+  border-style:dotted;
+  width:100px;
+  text-align: right;
+  left:500px;
+}
+
+#one
+{
+text-align: right;
+}
+
+#two
+{
+  text-align: right;
+
+}
+
+#three
+{
+  text-align: right;
+
+}
+
+#four
+{
+  text-align: right;
+
+}
+
+@keyframes color {
+  0%   {background-color: orange;}
+  25%  {background-color: yellow;}
+  50%  {background-color: purple;}
+  100% {background-color: blue;}
+}
